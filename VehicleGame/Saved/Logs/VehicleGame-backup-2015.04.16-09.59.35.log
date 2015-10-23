@@ -1,0 +1,619 @@
+﻿Log file open, 04/16/15 09:39:39
+LogInit:Display: Running engine for game: VehicleGame
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/UE4/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.16-13.39.39:197][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.16-13.39.39:263][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.16-13.39.39:292][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.16-13.39.39:308][  0]LogInit: Object subsystem initialized
+[2015.04.16-13.39.39:315][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.16-13.39.39:315][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.16-13.39.39:325][  0]LogInit: Computer: WES_PC
+[2015.04.16-13.39.39:325][  0]LogInit: User: Grimluckyreaper
+[2015.04.16-13.39.39:325][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.16-13.39.39:325][  0]LogInit: High frequency timer resolution =2.143603 MHz
+[2015.04.16-13.39.39:325][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=8192.0GB
+[2015.04.16-13.39.39:326][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.16-13.39.39:326][  0]LogMemory: Process Physical Memory: 49.41 MB used, 49.41 MB peak
+[2015.04.16-13.39.39:326][  0]LogMemory: Process Virtual Memory: 27.56 MB used, 27.57 MB peak
+[2015.04.16-13.39.39:326][  0]LogMemory: Physical Memory: 4266.04 MB used, 7968.06 MB total
+[2015.04.16-13.39.39:326][  0]LogMemory: Virtual Memory: 280.80 MB used, 8388608.00 MB total
+[2015.04.16-13.39.39:400][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 11_0)
+[2015.04.16-13.39.39:400][  0]LogD3D11RHI: Adapter has 1998MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.04.16-13.39.39:400][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.16-13.39.39:411][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.16-13.39.39:442][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.16-13.39.39:570][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.16-13.39.39:774][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/UE4/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/UE4/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.16-13.39.39:775][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/UE4/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/UE4/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.16-13.39.39:911][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.16-13.39.44:024][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.16-13.39.45:016][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.16-13.39.45:109][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.16-13.39.45:184][  0]LogDerivedDataCache: Loaded boot cache 0.08s 40MB C:/Users/Grimluckyreaper/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.16-13.39.45:184][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Grimluckyreaper/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.16-13.39.45:364][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../../../Unreal Projects/VehicleGame/DerivedDataCache/DDC.ddp.
+[2015.04.16-13.39.45:532][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.16-13.39.45:544][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grimluckyreaper/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.16-13.39.45:991][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.16-13.39.45:991][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.16-13.39.46:471][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.16-13.39.46:585][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.16-13.39.48:127][  0]LogLinker:Warning: Can't find file '/Game/UI/Menu/LoadingScreen'
+[2015.04.16-13.39.48:127][  0]LogLinker:Warning: Can't find file '/Game/UI/Menu/LoadingScreen'
+[2015.04.16-13.39.48:127][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/UI/Menu/LoadingScreen.LoadingScreen'
+[2015.04.16-13.39.48:398][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.16-13.39.48:770][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/VehicleGame/Content/UI/Styles/DefaultVehicleMenuItemStyle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.16-13.39.48:781][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/VehicleGame/Content/UI/Styles/DefaultVehicleMenuSoundsStyle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.16-13.39.48:848][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/VehicleGame/Content/UI/Styles/DefaultVehicleMenuStyle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.16-13.39.48:902][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.04.16-13.39.48:922][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.16-13.39.49:218][  0]SourceControl: Info Source control is disabled
+[2015.04.16-13.39.49:218][  0]SourceControl: Info Source control is disabled
+[2015.04.16-13.39.49:218][  0]SourceControl: Info Source control is disabled
+[2015.04.16-13.39.49:218][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.16-13.39.49:218][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.16-13.39.49:234][  0]SourceControl: Info Source control is disabled
+[2015.04.16-13.39.49:508][  0]LogObj: 24707 objects as part of root set at end of initial load.
+[2015.04.16-13.39.49:508][  0]LogUObjectAllocator: 5345816 out of 0 bytes used by permanent object pool.
+[2015.04.16-13.39.49:633][  0]LogEngine: Initializing Engine...
+[2015.04.16-13.39.52:871][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.16-13.39.52:978][  0]LogInit: FAudioDevice initialized.
+[2015.04.16-13.39.53:052][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.16-13.39.53:086][  0]LogDerivedDataCache: Saved boot cache 0.03s 45MB C:/Users/Grimluckyreaper/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.16-13.39.53:093][  0]LogInit: Texture streaming: Enabled
+[2015.04.16-13.39.53:273][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.16-13.39.53:273][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.16-13.39.53:273][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.16-13.39.53:273][  0]LogAnalytics: SetUserId 216ad70a4b3a102f49266e98852b3e1b|94eeed8cff384e178a9fc49eec0aee6f|5c619ee7-1b92-4f7d-a5a5-92e71355bcdd
+[2015.04.16-13.39.53:273][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.16-13.39.53:324][  0]LogInit: Transaction tracking system initialized
+[2015.04.16-13.39.53:711][  0]BlueprintLog: New page: Editor Load
+[2015.04.16-13.39.55:664][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.16-13.39.56:654][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.16-13.39.57:242][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.16-13.39.57:242][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.16-13.39.57:267][  0]LogConsoleResponse:Display: 
+[2015.04.16-13.39.57:267][  0]LogConsoleResponse:Display:   GraphicsQuality 1
+[2015.04.16-13.39.57:872][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.16-13.39.58:230][  0]SourceControl: Info Source control is disabled
+[2015.04.16-13.39.58:231][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/VehicleGame/Content/Maps/DesertRallyRace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.16-13.39.58:241][  0]LightingResults: New page: Lighting Build
+[2015.04.16-13.39.58:259][  0]MapCheck: New page: Map Check
+[2015.04.16-13.39.58:259][  0]LightingResults: New page: Lighting Build
+[2015.04.16-13.39.58:279][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017CA6520
+[2015.04.16-13.40.00:257][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/VehicleGame/Content/Vehicles/VH_Buggy/Blueprint/VH_PlayerController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.16-13.40.12:590][  0]BlueprintLog:Warning: Warning Blueprint Impact_default has been migrated and requires re-saving to avoid import errors
+[2015.04.16-13.40.28:128][  0]MapCheck: Info Lake StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:129][  0]MapCheck: Info SM_AncientHouse_Window_2 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:131][  0]MapCheck: Info SM_AncientHouse_Window_71 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:139][  0]MapCheck: Info SM_House1_Walls_23 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:141][  0]MapCheck: Info SM_House1_Walls_58 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:179][  0]MapCheck: Info SM_House1_Wood_59 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:216][  0]MapCheck: Info SM_House1_Wood_61 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:261][  0]MapCheck: Info SM_House1_Wood_64 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:300][  0]MapCheck: Info SM_House1_Wood_65 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:341][  0]MapCheck: Info SM_House1_Wood_66 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:348][  0]MapCheck: Info SM_Throne_Exterior_CoverB_11 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:348][  0]MapCheck: Info SM_Throne_Exterior_CoverB_12 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:350][  0]MapCheck: Info SM_Throne_Exterior_CoverB_14 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:351][  0]MapCheck: Info SM_Throne_Exterior_CoverB_15 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:353][  0]MapCheck: Info SM_Throne_Exterior_CoverB_16 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:353][  0]MapCheck: Info SM_Throne_Exterior_CoverB_18 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:354][  0]MapCheck: Info SM_Throne_Exterior_CoverB_186 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:355][  0]MapCheck: Info SM_Throne_Exterior_CoverB_19 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:356][  0]MapCheck: Info SM_Throne_Exterior_CoverB_20 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:359][  0]MapCheck: Info SM_Throne_Exterior_CoverB_21 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:360][  0]MapCheck: Info SM_Throne_Exterior_CoverB_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:363][  0]MapCheck: Info SM_Throne_Exterior_CoverB_45 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:368][  0]MapCheck: Info SM_Throne_Exterior_CoverB_5 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:372][  0]MapCheck: Info SM_Throne_Exterior_CoverB_50 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:375][  0]MapCheck: Info SM_Throne_Exterior_CoverB_6 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:379][  0]MapCheck: Info SM_Throne_Exterior_CoverB_64 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:381][  0]MapCheck: Info SM_Throne_Exterior_CoverB_7 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:385][  0]MapCheck: Info SM_Throne_Exterior_CoverB_73 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:387][  0]MapCheck: Info SM_Throne_Exterior_CoverB_8 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:388][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_10 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:389][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_122 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:389][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_13 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:390][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_14 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:392][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_16 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:399][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_17 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:400][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_3 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:400][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:401][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_65 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:401][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_68 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:403][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_7 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:404][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_8 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:404][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_81 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:405][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_82 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:405][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_85 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:406][  0]MapCheck: Info SM_Throne_Exterior_CoverBlo_9 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:406][  0]MapCheck: Info SM_Throne_Exterior_Wall_01_9 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:408][  0]MapCheck: Info SM_Throne_Exterior_Wall_11 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:409][  0]MapCheck: Info SM_Throne_Exterior_Wall_2 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:409][  0]MapCheck: Info SM_Throne_Exterior_Wall_3 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:410][  0]MapCheck: Info SM_Throne_Exterior_Wall_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:410][  0]MapCheck: Info SM_Throne_Exterior_Wall_5 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:411][  0]MapCheck: Info SM_Throne_Exterior_Wall_6 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:411][  0]MapCheck: Info SM_Throne_Exterior_Wall_60 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:412][  0]MapCheck: Info SM_Throne_Exterior_Wall_7 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:412][  0]MapCheck: Info SM_Throne_Exterior_Wall_8 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:413][  0]MapCheck: Info SM_Throne_Exterior_Wall_9 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:414][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_01_24 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:415][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_10 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:416][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_11 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:416][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_12 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:417][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_13 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:418][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_15 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:419][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_2 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:419][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_20 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:420][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_21 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:421][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_22 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:421][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:422][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_5 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:423][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_6 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:424][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_7 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:425][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_8 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:425][  0]MapCheck: Info SM_Throne_Exterior_Wall_Broken_9 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:425][  0]MapCheck: Info SM_Throne_Interior_Stairs_1 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:426][  0]MapCheck: Info SM_Throne_Interior_Stairs_2 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:426][  0]MapCheck: Info SM_Throne_Interior_Stairs_3 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:426][  0]MapCheck: Info SM_Throne_Interior_Stairs_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:427][  0]MapCheck: Info SM_Throne_Interior_Stairs_5 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:428][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_01_31 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:428][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_02_39 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:429][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_03_21 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:429][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_04_56 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:430][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_10 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:431][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_11 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:431][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_123 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:431][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_13 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:433][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_15 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:434][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_16 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:434][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_19 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:435][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_20 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:436][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_208 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:437][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_21 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:437][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_22 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:438][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_23 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:438][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_24 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:438][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_25 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:439][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_26 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:439][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_27 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:439][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_28 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:440][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_29 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:441][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_30 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:441][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_32 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:442][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_34 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:442][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_35 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:444][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_36 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:447][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_37 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:448][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_38 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:449][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_39 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:450][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_40 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:451][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_42 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:452][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_43 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:452][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_45 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:453][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_48 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:454][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_5 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:454][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_50 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:456][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_52 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:456][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_53 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:457][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_54 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:459][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_62 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:461][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_64 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:462][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_7 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:463][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_76 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:463][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_78 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:464][  0]MapCheck: Info SM_Throne_Interior_Wall_BrokenPiece_9 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:471][  0]MapCheck: Info VG_Bridge_01B_3 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.28:474][  0]MapCheck: Info VG_Bridge_01B_4 StaticMeshComponent0 : Repaired painted vertex colors 
+[2015.04.16-13.40.33:644][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.16-13.41.19:562][  0]LogAIModule: Creating AISystem for world DesertRallyRace
+[2015.04.16-13.41.19:660][  0]Cmd: MAP CHECKDEP
+[2015.04.16-13.41.19:660][  0]MapCheck: New page: DesertRallyRace - Apr 16, 2015, 5:41:19 AM
+[2015.04.16-13.41.20:135][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 475.405ms to complete.
+[2015.04.16-13.41.20:135][  0]LogFileHelpers: Loading map 'DesertRallyRace' took 81.904
+[2015.04.16-13.41.28:016][  0]LogCollectionManager: Loaded 0 collections in 0.003753 seconds
+[2015.04.16-13.41.28:945][  0]LogContentBrowser: Native class hierarchy populated in 0.9032 seconds. Added 1716 classes and 274 folders.
+[2015.04.16-13.41.30:811][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0469 seconds. Added 1 classes and 2 folders.
+[2015.04.16-13.41.32:286][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.16-13.41.32:355][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.16-13.41.32:442][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.16-13.41.32:583][  0]LogLoad: Full Startup: 116.17 seconds (BP compile: 1.21 seconds)
+[2015.04.16-13.41.33:883][  0]LogRenderer:Warning: Reallocating scene render targets to support 816x400 (Frame:2).
+[2015.04.16-13.41.34:662][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.16-13.41.34:774][  1]Cmd: UpdateLandscapeEditorData
+[2015.04.16-13.41.39:495][ 39]LogAssetRegistry: Asset discovery search completed in 110.6015 seconds
+[2015.04.16-13.41.45:614][175]LogConsoleManager:Warning: Console variable 'r.ScreenPercentage' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.SkeletalMeshLODBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.ViewDistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.PostProcessAAQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.LightFunctionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.ShadowQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.MaxCascades' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.Shadow.MaxResolution' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.Shadow.RadiusThreshold' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.Shadow.DistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:615][175]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.TransitionScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.MotionBlurQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionLevels' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionRadiusScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.DepthOfFieldQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.RenderTargetPoolMin' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.LensFlareQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.SceneColorFringeQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.EyeAdaptationQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.BloomQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.Streaming.MipBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.MaxAnisotropy' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.TranslucencyLightingVolumeDim' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.RefractionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.SSR.Quality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.SceneColorFormat' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.41.45:616][175]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.16-13.42.34:816][487]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.16-13.42.34:829][487]LogPlayLevel: [PIE] Compiling DesertRallyRace before PIE...
+[2015.04.16-13.42.35:062][487]LogPlayLevel: PIE:  Blueprint regeneration took 245 ms (1 blueprints)
+[2015.04.16-13.42.35:062][487]PIE: New page: PIE session: DesertRallyRace (Apr 16, 2015, 5:42:35 AM)
+[2015.04.16-13.42.36:276][487]LogPlayLevel: PIE: StaticDuplicateObject took: (1.211914s)
+[2015.04.16-13.42.36:279][487]LogPlayLevel: PIE: World Init took: (0.002480s)
+[2015.04.16-13.42.36:280][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DesertRallyRace.DesertRallyRace to /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace (1.215838s)
+[2015.04.16-13.42.36:432][487]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision to /Game/Maps/UEDPIE_0_DesertRallyRace_Collision.DesertRallyRace_Collision. OwningWorld: /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace
+[2015.04.16-13.42.36:490][487]LogWorld: Game class is 'VH_Gamemode_C'
+[2015.04.16-13.42.36:624][487]LogAIModule: Creating AISystem for world DesertRallyRace
+[2015.04.16-13.42.37:312][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace up for play (max tick rate 60) at 2015.04.16-09.42.37
+[2015.04.16-13.42.37:410][487]LogWorld: Bringing up level for play took: 0.785885
+[2015.04.16-13.42.37:607][487]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DesertRallyRace 3.636
+[2015.04.16-13.42.37:878][487]LogSlate:Warning: Failed to load font data from 'UI_Vehicle_Font'
+[2015.04.16-13.42.38:113][487]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:290).
+[2015.04.16-13.42.41:869][517]LogAudio:Warning: Detected orphaned looping sound 'Vehicle_Race_Cue'.
+[2015.04.16-13.43.14:548][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE84540
+[2015.04.16-13.43.17:030][847]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.04.16-13.43.17:030][847]LogSynthBenchmark:Display: ===============
+[2015.04.16-13.43.17:030][847]LogSynthBenchmark:Display: Main Processor:
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:          ... 0.049487 s/Run 'RayIntersect'
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:          ... 0.053459 s/Run 'Fractal'
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display: 
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.04.16-13.43.17:133][847]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   CPU Perf Index 0: 51.8
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   CPU Perf Index 1: 53.5
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:  
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display: Graphics:
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 3000'
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2015.04.16-13.43.17:134][847]LogSynthBenchmark:Display:   GPU Memory: 1999/0/2048 MB
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:          ... 0.304 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:          ... 0.351 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:          ... 0.240 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:          ... 1.201 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2015.04.16-13.43.17:199][847]LogSynthBenchmark:Display:          ... 0.063 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU second test: 0.19s
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.354 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.411 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.243 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 1.941 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.061 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.354 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.411 GigaPix/s, Confidence=100% 'TexHeavy'
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.243 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 1.941 GigaPix/s, Confidence=100% 'FillOnly'
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... 0.061 GigaPix/s, Confidence=100% 'Bandwidth'
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display: 
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU Perf Index 0: 7.7
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU Perf Index 1: 5.5
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU Perf Index 2: 6.3
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU Perf Index 3: 7.6
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPU Perf Index 4: 5.7
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   CPUIndex: 51.8
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:   GPUIndex: 7.7
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display: 
+[2015.04.16-13.43.17:406][847]LogSynthBenchmark:Display:          ... Total Time: 0.375951 sec
+[2015.04.16-13.43.17:406][847]LogConsoleManager:Warning: Console variable 'r.ScreenPercentage' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.SkeletalMeshLODBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.ViewDistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.PostProcessAAQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.LightFunctionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.ShadowQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.MaxCascades' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Shadow.MaxResolution' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Shadow.RadiusThreshold' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Shadow.DistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.TransitionScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.MotionBlurQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionLevels' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionRadiusScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.DepthOfFieldQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.RenderTargetPoolMin' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.LensFlareQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.SceneColorFringeQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.EyeAdaptationQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.BloomQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Streaming.MipBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.MaxAnisotropy' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:407][847]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:408][847]LogConsoleManager:Warning: Console variable 'r.TranslucencyLightingVolumeDim' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:408][847]LogConsoleManager:Warning: Console variable 'r.RefractionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:408][847]LogConsoleManager:Warning: Console variable 'r.SSR.Quality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:408][847]LogConsoleManager:Warning: Console variable 'r.SceneColorFormat' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:408][847]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.ScreenPercentage' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.SkeletalMeshLODBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.ViewDistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.PostProcessAAQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.LightFunctionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.ShadowQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.MaxCascades' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.Shadow.MaxResolution' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.Shadow.RadiusThreshold' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.Shadow.DistanceScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.Shadow.CSM.TransitionScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.MotionBlurQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionLevels' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.AmbientOcclusionRadiusScale' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.DepthOfFieldQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:430][847]LogConsoleManager:Warning: Console variable 'r.RenderTargetPoolMin' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.LensFlareQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.SceneColorFringeQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.EyeAdaptationQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.BloomQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.Streaming.MipBias' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.MaxAnisotropy' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.TranslucencyLightingVolumeDim' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.RefractionQuality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.SSR.Quality' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.SceneColorFormat' wasn't set (Priority Code < Scalability)
+[2015.04.16-13.43.17:431][847]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.16-13.44.19:847][959]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.16-13.44.19:847][959]LogPlayLevel: [PIE] Compiling DesertRallyRace before PIE...
+[2015.04.16-13.44.20:078][959]LogPlayLevel: PIE:  Blueprint regeneration took 230 ms (1 blueprints)
+[2015.04.16-13.44.20:078][959]PIE: New page: PIE session: DesertRallyRace (Apr 16, 2015, 5:44:20 AM)
+[2015.04.16-13.44.21:403][959]LogPlayLevel: PIE: StaticDuplicateObject took: (1.323250s)
+[2015.04.16-13.44.21:405][959]LogPlayLevel: PIE: World Init took: (0.001727s)
+[2015.04.16-13.44.21:405][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DesertRallyRace.DesertRallyRace to /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace (1.326114s)
+[2015.04.16-13.44.21:505][959]LogWorld: Game class is 'VH_Gamemode_C'
+[2015.04.16-13.44.21:546][959]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/DesertRallyRace_Collision.DesertRallyRace_Collision to /Game/Maps/UEDPIE_0_DesertRallyRace_Collision.DesertRallyRace_Collision. OwningWorld: /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace
+[2015.04.16-13.44.21:576][959]LogAIModule: Creating AISystem for world DesertRallyRace
+[2015.04.16-13.44.22:330][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DesertRallyRace.DesertRallyRace up for play (max tick rate 60) at 2015.04.16-09.44.22
+[2015.04.16-13.44.22:361][959]LogWorld: Bringing up level for play took: 0.783531
+[2015.04.16-13.44.22:367][959]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DesertRallyRace 2.394
+[2015.04.16-13.44.26:206][ 10]LogAudio:Warning: Detected orphaned looping sound 'Vehicle_Race_Cue'.
+[2015.04.16-13.45.19:619][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D23E520
+[2015.04.16-13.45.39:984][521]LogEditorViewport: Clicking on Actor (LMB): VehicleTrackPoint (CheckPointA)
+[2015.04.16-13.45.42:456][522]LogEditorViewport: Clicking on Actor (LMB): VehicleTrackPoint (CheckPointA)
+[2015.04.16-13.48.51:508][885]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Vehicles'
+[2015.04.16-13.48.54:458][ 10]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UI'
+[2015.04.16-13.48.55:798][ 71]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sounds'
+[2015.04.16-13.49.00:905][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2015.04.16-13.49.03:974][371]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.04.16-13.49.07:898][511]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DemoRoom'
+[2015.04.16-13.49.08:494][533]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.04.16-13.50.25:924][525]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.16-13.50.28:232][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame'
+[2015.04.16-13.50.29:709][681]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Classes'
+[2015.04.16-13.50.35:679][944]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Classes/Track'
+[2015.04.16-13.53.11:757][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DesertRallyRace" FILE="../../../../../Unreal Projects/VehicleGame/Saved/Autosaves/Game/Maps/DesertRallyRace_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.16-13.53.43:793][645]LogSavePackage: Save=29280.480469ms
+[2015.04.16-13.53.43:793][645]LogSavePackage: Moving '../../../../../Unreal Projects/VehicleGame/Saved/DesertRallyRace_Auto1C4493D0C491005F157C84FBCF6F3E026.tmp' to '../../../../../Unreal Projects/VehicleGame/Saved/Autosaves/Game/Maps/DesertRallyRace_Auto1.umap'
+[2015.04.16-13.53.43:865][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DesertRallyRace' took 32.323
+[2015.04.16-13.53.43:865][645]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 32.323
+[2015.04.16-13.54.40:515][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.16-13.54.42:416][760]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game'
+[2015.04.16-13.54.43:635][822]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame'
+[2015.04.16-13.54.45:192][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Classes'
+[2015.04.16-13.55.16:898][465]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2015.04.16-13.55.18:885][575]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game'
+[2015.04.16-13.55.22:144][757]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame'
+[2015.04.16-13.55.23:420][823]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Private'
+[2015.04.16-13.55.24:543][884]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Private/UI'
+[2015.04.16-13.55.28:344][ 92]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/VehicleGame/Classes'
+[2015.04.16-13.59.21:305][ 31]Cmd: QUIT_EDITOR
+[2015.04.16-13.59.22:582][ 31]LogExit: Preparing to exit.
+[2015.04.16-13.59.24:705][ 31]LogExit: Editor shut down
+[2015.04.16-13.59.24:706][ 31]LogExit: Transaction tracking system shut down
+[2015.04.16-13.59.24:712][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C10CA40
+[2015.04.16-13.59.24:841][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000585DC540
+[2015.04.16-13.59.26:588][ 31]LogExit: Object subsystem successfully closed.
+[2015.04.16-13.59.27:217][ 31]LogModuleManager: Shutting down and abandoning module SynthBenchmark (180)
+[2015.04.16-13.59.27:217][ 31]LogModuleManager: Shutting down and abandoning module CrashTracker (179)
+[2015.04.16-13.59.27:217][ 31]LogModuleManager: Shutting down and abandoning module SuperSearch (178)
+[2015.04.16-13.59.27:217][ 31]LogModuleManager: Shutting down and abandoning module SceneOutliner (177)
+[2015.04.16-13.59.27:227][ 31]LogModuleManager: Shutting down and abandoning module EditorWidgets (176)
+[2015.04.16-13.59.27:227][ 31]LogModuleManager: Shutting down and abandoning module CollectionManager (175)
+[2015.04.16-13.59.27:242][ 31]LogModuleManager: Shutting down and abandoning module StatsViewer (174)
+[2015.04.16-13.59.27:276][ 31]LogModuleManager: Shutting down and abandoning module FoliageEdit (173)
+[2015.04.16-13.59.27:276][ 31]LogModuleManager: Shutting down and abandoning module LandscapeEditor (172)
+[2015.04.16-13.59.27:292][ 31]LogModuleManager: Shutting down and abandoning module MeshPaint (171)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module ActorPickerMode (170)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module GeometryMode (169)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module TextureAlignMode (168)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module BspMode (167)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module PlacementMode (166)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module AutomationWorker (165)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module CharacterAI (164)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module SmartSnapping (163)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module ViewportSnapping (162)
+[2015.04.16-13.59.27:300][ 31]LogModuleManager: Shutting down and abandoning module LogVisualizer (161)
+[2015.04.16-13.59.27:344][ 31]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (160)
+[2015.04.16-13.59.27:360][ 31]LogModuleManager: Shutting down and abandoning module IntroTutorials (159)
+[2015.04.16-13.59.27:457][ 31]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (158)
+[2015.04.16-13.59.27:457][ 31]LogModuleManager: Shutting down and abandoning module HardwareTargeting (157)
+[2015.04.16-13.59.27:457][ 31]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (156)
+[2015.04.16-13.59.27:464][ 31]LogModuleManager: Shutting down and abandoning module UndoHistory (155)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (154)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module UserFeedback (153)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module XmlParser (152)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module Blutility (151)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (150)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (149)
+[2015.04.16-13.59.27:475][ 31]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (148)
+[2015.04.16-13.59.28:221][ 31]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (147)
+[2015.04.16-13.59.28:221][ 31]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (146)
+[2015.04.16-13.59.28:221][ 31]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (145)
+[2015.04.16-13.59.28:235][ 31]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (144)
+[2015.04.16-13.59.28:235][ 31]LogModuleManager: Shutting down and abandoning module InputBindingEditor (143)
+[2015.04.16-13.59.28:269][ 31]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (142)
+[2015.04.16-13.59.28:269][ 31]LogModuleManager: Shutting down and abandoning module SettingsEditor (141)
+[2015.04.16-13.59.28:275][ 31]LogModuleManager: Shutting down and abandoning module ProjectLauncher (140)
+[2015.04.16-13.59.28:301][ 31]LogModuleManager: Shutting down and abandoning module SessionFrontend (139)
+[2015.04.16-13.59.28:309][ 31]LogModuleManager: Shutting down and abandoning module ProfilerClient (138)
+[2015.04.16-13.59.28:324][ 31]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (137)
+[2015.04.16-13.59.28:324][ 31]LogModuleManager: Shutting down and abandoning module DeviceManager (136)
+[2015.04.16-13.59.28:338][ 31]LogModuleManager: Shutting down and abandoning module AutomationController (135)
+[2015.04.16-13.59.28:352][ 31]LogModuleManager: Shutting down and abandoning module AutomationWindow (134)
+[2015.04.16-13.59.28:359][ 31]LogModuleManager: Shutting down and abandoning module Layers (133)
+[2015.04.16-13.59.28:384][ 31]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (132)
+[2015.04.16-13.59.28:384][ 31]LogModuleManager: Shutting down and abandoning module DetailCustomizations (131)
+[2015.04.16-13.59.28:400][ 31]LogModuleManager: Shutting down and abandoning module PackagesDialog (130)
+[2015.04.16-13.59.28:401][ 31]LogModuleManager: Shutting down and abandoning module Persona (129)
+[2015.04.16-13.59.28:440][ 31]LogModuleManager: Shutting down and abandoning module SlateReflector (128)
+[2015.04.16-13.59.28:463][ 31]LogModuleManager: Shutting down and abandoning module LevelEditor (127)
+[2015.04.16-13.59.28:475][ 31]LogModuleManager: Shutting down and abandoning module Kismet (126)
+[2015.04.16-13.59.28:489][ 31]LogModuleManager: Shutting down and abandoning module GraphEditor (125)
+[2015.04.16-13.59.28:541][ 31]LogModuleManager: Shutting down and abandoning module ClassViewer (124)
+[2015.04.16-13.59.28:541][ 31]LogModuleManager: Shutting down and abandoning module Toolbox (123)
+[2015.04.16-13.59.28:541][ 31]LogModuleManager: Shutting down and abandoning module ModuleUI (122)
+[2015.04.16-13.59.28:552][ 31]LogModuleManager: Shutting down and abandoning module MovieSceneTools (121)
+[2015.04.16-13.59.28:600][ 31]LogModuleManager: Shutting down and abandoning module OutputLog (120)
+[2015.04.16-13.59.28:600][ 31]LogModuleManager: Shutting down and abandoning module GammaUI (119)
+[2015.04.16-13.59.28:617][ 31]LogModuleManager: Shutting down and abandoning module Documentation (118)
+[2015.04.16-13.59.28:617][ 31]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (117)
+[2015.04.16-13.59.28:635][ 31]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (116)
+[2015.04.16-13.59.28:635][ 31]LogModuleManager: Shutting down and abandoning module HTTP (115)
+[2015.04.16-13.59.28:656][ 31]LogModuleManager: Shutting down and abandoning module AnalyticsET (114)
+[2015.04.16-13.59.28:657][ 31]LogModuleManager: Shutting down and abandoning module Analytics (113)
+[2015.04.16-13.59.28:657][ 31]LogModuleManager: Shutting down and abandoning module AITestSuite (112)
+[2015.04.16-13.59.28:669][ 31]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2015.04.16-13.59.28:669][ 31]LogModuleManager: Shutting down and abandoning module AIModule (110)
+[2015.04.16-13.59.28:678][ 31]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2015.04.16-13.59.28:897][ 31]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2015.04.16-13.59.28:919][ 31]LogModuleManager: Shutting down and abandoning module SlateRemote (107)
+[2015.04.16-13.59.28:919][ 31]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (106)
+[2015.04.16-13.59.28:919][ 31]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.04.16-13.59.28:919][ 31]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.04.16-13.59.28:931][ 31]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.04.16-13.59.28:955][ 31]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.04.16-13.59.28:960][ 31]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.04.16-13.59.28:960][ 31]LogModuleManager: Shutting down and abandoning module PluginsEditor (100)
+[2015.04.16-13.59.28:968][ 31]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2015.04.16-13.59.28:968][ 31]LogModuleManager: Shutting down and abandoning module EpicSurvey (98)
+[2015.04.16-13.59.28:977][ 31]LogModuleManager: Shutting down and abandoning module DesktopPlatform (97)
+[2015.04.16-13.59.29:039][ 31]LogModuleManager: Shutting down and abandoning module HotReload (96)
+[2015.04.16-13.59.29:048][ 31]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (95)
+[2015.04.16-13.59.29:048][ 31]LogModuleManager: Shutting down and abandoning module UObjectPlugin (94)
+[2015.04.16-13.59.29:048][ 31]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (93)
+[2015.04.16-13.59.29:073][ 31]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (92)
+[2015.04.16-13.59.29:109][ 31]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.04.16-13.59.29:129][ 31]LogModuleManager: Shutting down and abandoning module GitSourceControl (90)
+[2015.04.16-13.59.29:148][ 31]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.04.16-13.59.29:148][ 31]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2015.04.16-13.59.29:148][ 31]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2015.04.16-13.59.29:148][ 31]LogModuleManager: Shutting down and abandoning module ContentBrowser (86)
+[2015.04.16-13.59.29:150][ 31]LogModuleManager: Shutting down and abandoning module Paper2DEditor (85)
+[2015.04.16-13.59.29:174][ 31]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (84)
+[2015.04.16-13.59.29:176][ 31]LogModuleManager: Shutting down and abandoning module AssetRegistry (83)
+[2015.04.16-13.59.29:358][ 31]LogModuleManager: Shutting down and abandoning module VehicleGame (82)
+[2015.04.16-13.59.29:389][ 31]LogModuleManager: Shutting down and abandoning module ScriptPlugin (81)
+[2015.04.16-13.59.29:437][ 31]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.04.16-13.59.29:538][ 31]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.04.16-13.59.29:609][ 31]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.04.16-13.59.29:621][ 31]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.04.16-13.59.29:621][ 31]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.04.16-13.59.29:659][ 31]LogModuleManager: Shutting down and abandoning module VehicleGameLoadingScreen (75)
+[2015.04.16-13.59.29:659][ 31]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.16-13.59.29:659][ 31]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.16-13.59.29:659][ 31]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.16-13.59.29:825][ 31]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.16-13.59.29:825][ 31]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.16-13.59.29:931][ 31]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.16-13.59.29:931][ 31]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.16-13.59.29:931][ 31]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.16-13.59.29:959][ 31]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.16-13.59.29:994][ 31]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.16-13.59.30:017][ 31]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.16-13.59.30:031][ 31]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.16-13.59.30:031][ 31]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.16-13.59.30:051][ 31]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.16-13.59.30:154][ 31]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.16-13.59.30:196][ 31]LogDerivedDataCache: Shutdown
+[2015.04.16-13.59.30:196][ 31]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.16-13.59.30:203][ 31]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.16-13.59.30:203][ 31]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.16-13.59.30:210][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.16-13.59.30:218][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.16-13.59.30:218][ 31]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.16-13.59.30:218][ 31]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.16-13.59.30:218][ 31]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.16-13.59.30:218][ 31]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.16-13.59.30:219][ 31]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.16-13.59.30:220][ 31]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.16-13.59.30:253][ 31]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.16-13.59.30:260][ 31]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.16-13.59.30:260][ 31]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.16-13.59.30:267][ 31]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.16-13.59.30:330][ 31]LogExit: Exiting.
+[2015.04.16-13.59.30:397][ 31]Log file closed, 04/16/15 09:59:30
